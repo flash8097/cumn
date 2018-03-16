@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--
     This is a skeleton device manifest. Notes:
     1. android.hidl.*, android.frameworks.*, android.system.* are not included.
@@ -11,7 +12,7 @@
        is removed from the manifest file and written by assemble_vintf
        at build time.
 -->
-<manifest version="1.0" type="device">
+<manifest version="1.0" type="device" target-level="2">
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
