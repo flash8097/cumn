@@ -196,6 +196,10 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/idc/gf3208.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/gf3208.idc \
     $(VENDOR_PATH)/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc
 
+# Json-c
+PRODUCT_PACKAGES += \
+    libjson
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
